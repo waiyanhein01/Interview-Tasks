@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Payment = () => {
   return (
-    <section className="bg-[#F6F5F5] min-h-screen relative">
+    <section className=" min-h-screen relative">
       <div className=" pt-12 mx-16 md:mx-60 lg:mx-5">
-        <div className="">
+        <Link to={"/"} className="">
           <svg
             width="8"
             height="14"
@@ -20,7 +21,7 @@ const Payment = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
 
         <h1 className="font-bold leading-[30.2px] text-[22.1px] md:text-2xl lg:text-3xl mt-3 text-[#2D0C57]">
           Credit / Debit card
@@ -220,9 +221,9 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="absolute w-[275.49px] bg-[#0ACF83] h-[41.36px] top-[650px] rounded-[5.89px] border-[#D9D0E3] border-[0.74px] mb-3">
+        <div className="absolute w-[275.49px] bg-[#0ACF83] h-[41.36px] top-[650px] rounded-[5.89px] border-[#D9D0E3] border-[0.74px]">
           <span className=" absolute uppercase w-[86.18px] h-[13.26px] text-[#FFFFFF] text-[13.52px] text-nowrap leading-[16.21px] tracking-[-0.3px] top-[10.78px] left-[89.02px] gap-[7.37px] font-normal">
-          use this card
+            use this card
           </span>
         </div>
       </div>

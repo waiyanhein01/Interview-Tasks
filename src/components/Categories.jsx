@@ -1,5 +1,6 @@
 import React from "react";
 import { HiChevronLeft } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Categories = () => {
   return (
@@ -120,7 +121,7 @@ const Categories = () => {
         </div>
       </div>
       <div className=" bg-white border-t-2 fixed z-50 bottom-0 lg:p-8 md:p-12 p-6 w-full flex justify-around items-center">
-        <div className="">
+        <Link to={"/"}  className="">
           <svg
             width="23"
             height="23"
@@ -165,9 +166,9 @@ const Categories = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
 
-        <div className="">
+        <Link to={"/checkout"} className="">
           <svg
             width="23"
             height="23"
@@ -204,9 +205,9 @@ const Categories = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
 
-        <div className="">
+        <Link to={"/payment"} className="">
           <svg
             width="23"
             height="23"
@@ -229,7 +230,7 @@ const Categories = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
       </div>
     </section>
   );

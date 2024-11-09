@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CheckoutScrollView = () => {
   return (
@@ -375,7 +376,7 @@ const CheckoutScrollView = () => {
       </div>
 
       <div className=" bg-[#F8F8F8EB] border-t-2 fixed bottom-0 lg:p-5 md:p-12 p-6 w-full flex justify-around items-center">
-        <div className="">
+        <Link to={'/'} className="">
           <svg
             width="23"
             height="23"
@@ -412,9 +413,9 @@ const CheckoutScrollView = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
 
-        <div className=" relative">
+        <Link to={"/checkout"} className=" relative">
           <svg
             width="23"
             height="23"
@@ -478,9 +479,9 @@ const CheckoutScrollView = () => {
               />
             </svg>
           </div>
-        </div>
+        </Link>
 
-        <div className="">
+        <Link to={"/payment"} className="">
           <svg
             width="23"
             height="23"
@@ -503,7 +504,7 @@ const CheckoutScrollView = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
+        </Link>
       </div>
     </section>
   );

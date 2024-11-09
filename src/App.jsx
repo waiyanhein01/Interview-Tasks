@@ -9,10 +9,10 @@ import Payment from "./components/Payment";
 const App = () => {
   return (
     <>
-    {/* <SplashScreen/> */}
+    <SplashScreen/>
     <Item/>
+    <Vegetables/>
     <Categories/>
-    {/* <Vegetables/> */}
     {/* <CheckoutScrollView/> */}
     {/* <Payment /> */}
     </>
