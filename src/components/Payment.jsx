@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Payment = () => {
   return (
-    <section className=" min-h-screen relative">
-      <div className=" pt-12 mx-16 md:mx-60 lg:mx-5">
+    <section className=" min-h-screen flex justify-center ">
+      <div className="relative pt-12 mx-5">
         <Link to={"/"} className="">
           <svg
             width="8"
@@ -89,7 +89,7 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="absolute w-[25.04px] h-[21.36px] top-[350px] left-[152.96px]">
+        <div className="absolute w-[25.04px] h-[21.36px] top-[340px] left-[130.96px]">
           <svg
             width="27"
             height="23"
@@ -124,8 +124,8 @@ const Payment = () => {
           <h1 className="text-[#9586A8] absolute leading-[16.21px] text-[16.31px] left-[13.73px] md:text-base lg:text-lg tracking-[-0.3px]">
             Name On Card
           </h1>
-          <div className="absolute w-[275.49px] h-[35.36px] top-[24px] rounded-[5.89px] border-[#D9D0E3] border-[0.74px]">
-            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[2.78px] left-[9.58px] gap-[7.37px] font-normal">
+          <div className="absolute w-[275.49px] h-[35.36px] top-[22px] rounded-[5.89px] border-[#D9D0E3] border-[0.74px]">
+            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[7.78px] left-[9.58px] gap-[7.37px] font-normal">
               Alexandra Smith
             </span>
           </div>
@@ -162,7 +162,7 @@ const Payment = () => {
               />
             </svg>
 
-            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[2.78px] left-[9.58px] gap-[7.37px] font-normal">
+            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[8.78px] left-[9.58px] gap-[7.37px] font-normal">
               4747 4747 4747 4747
             </span>
           </div>
@@ -173,7 +173,7 @@ const Payment = () => {
             Expiry date
           </h1>
           <div className="absolute w-[130px] h-[35.36px] top-[24px] rounded-[5.89px] border-[#D9D0E3] border-[0.74px]">
-            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[2.78px] left-[9.58px] gap-[7.37px] font-normal">
+            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[8.78px] left-[9.58px] gap-[7.37px] font-normal">
               07/21
             </span>
           </div>
@@ -182,7 +182,7 @@ const Payment = () => {
             CVC
           </h1>
           <div className="absolute w-[130px] h-[35.36px] top-[24px] left-[145.58px]  rounded-[5.89px] border-[#D9D0E3] border-[0.74px]">
-            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[2.78px] left-[9.58px] gap-[7.37px] font-normal">
+            <span className=" absolute w-[125px] h-[22px] text-[#2D0C57] text-[15.52px] md:text-lg lg:text-xl text-nowrap leading-[16.21px] tracking-[-0.3px] top-[8.78px] left-[9.58px] gap-[7.37px] font-normal">
               474
             </span>
 
