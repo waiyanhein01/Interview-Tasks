@@ -427,7 +427,7 @@ const Vegetables = () => {
         </div>
       </div>
 
-      <div className=" bg-white border-t-2 fixed bottom-0 lg:p-8 md:p-12 p-6 w-full flex justify-around items-center">
+      <div className=" bg-white border-t-2 fixed z-50 bottom-0 lg:p-8 md:p-12 p-6 w-full flex justify-around items-center">
         <div className="">
           <svg
             width="23"

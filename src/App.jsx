@@ -8,12 +8,14 @@ import Payment from "./components/Payment";
 
 const App = () => {
   return (
-    // <SplashScreen/>
-    // <Categories/>
-    // <Vegetables/>
-    // <Item/>
-    // <CheckoutScrollView/>
-    <Payment />
+    <>
+    {/* <SplashScreen/> */}
+    <Item/>
+    <Categories/>
+    {/* <Vegetables/> */}
+    {/* <CheckoutScrollView/> */}
+    {/* <Payment /> */}
+    </>
   );
 };
 
